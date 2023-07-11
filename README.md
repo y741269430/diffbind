@@ -1,6 +1,6 @@
 # diffbind
 
-run1  
+Bam files must be sorted and indexed.  
 
     vim sort_idx.sh
     #!/bin/bash
@@ -12,7 +12,7 @@ run1
     samtools index -@ 8 ./mapbam/${i}_mm10_bowtie2.sorted.bam &
     done
 
-run2  
+R  
 
     library(DiffBind)
     library(tidyverse, quietly = TRUE)
